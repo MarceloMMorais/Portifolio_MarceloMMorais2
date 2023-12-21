@@ -11,6 +11,7 @@
 
     <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
+
   </head>
 
   <body>
@@ -24,7 +25,7 @@
             <a href="#home" class="active">Início</a>
             <a href="#about">Sobre</a>
             <a href="#services">Serviços</a>
-            <a href="#portfolio">Portifólio</a>
+            <a href="#portfolio">Projetos</a>
             <a href="#contact">Contato</a>
         </nav>
     </header>
@@ -114,12 +115,80 @@
     <!-- portfolio section design -->
 
     <section class="portfolio" id="portfolio">
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Meus <span>Projetos</span></h2>
 
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/Projeto_1.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Equilibrio Interior</h4>
+                        <p>Site desenvolvido para uma clínica com Terapias Naturais</p>
+                        <a target="_blank" href="https://equilibriointerior.netlify.app/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/Projeto_2.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>SISACOB</h4>
+                        <p>Sistema de Gestão Empresarial (Jurídico, Cobrança e Financeiro)
+                        </p>
+                        <a target="_blank" href="https://www.sisacobranca.com.br/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/Projeto_1.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Equilibrio Interior</h4>
+                        <p>Site desenvolvido para uma clínica com Terapias Naturais</p>
+                        <a href="https://equilibriointerior.netlify.app/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/Projeto_1.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Equilibrio Interior</h4>
+                        <p>Site desenvolvido para uma clínica com Terapias Naturais</p>
+                        <a href="https://equilibriointerior.netlify.app/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
 
     <!-- contact section design -->
 
+    <section class="contact" id="contact">
+        <h2 class="heading">Entre em <span>Contato</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="*Nome Completo:" required>
+                <input type="email" placeholder="*Seu E-mail:" required>
+            </div> 
+            <div class="input-box">
+                <input type="tel" placeholder="Seu Celular: (99) 9999-9999" maxlength="15" onkeyup="handlePhone(event)">
+                <input type="text" placeholder="*Assunto do E-mail:" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="*Sua Mensagem:" required></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </section>
+
     <!-- footer design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Marcelo M. Morais | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-circle'></i></a>
+        </div>
+    </footer>
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -128,6 +197,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <!-- custom js -->
-    <script src="js/script.js"></script>
+    <script src="java.js"></script>
+
   </body>
 </html>
